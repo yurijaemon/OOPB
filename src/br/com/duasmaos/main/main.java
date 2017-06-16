@@ -17,9 +17,15 @@ public class main {
 
         josefina.setNome(null);
         nome = josefina.getNome();
-        
-        tamanhoNome = nome.length();
 
+        try {
+            tamanhoNome = nome.length();
+        }
+        catch(NullPointerException e) {
+            //Fudeu batima
+            System.out.print("Dentro do catch");
+
+        }
     }
 
 }
