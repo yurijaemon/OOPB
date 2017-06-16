@@ -22,8 +22,13 @@ public class main {
             tamanhoNome = nome.length();
         }
         catch(NullPointerException e) {
-            //Fudeu batima
+            // Fudeu batima
             System.out.print("Dentro do catch");
+
+        }
+        catch (ArrayIndexOutOfBoundsException e) {
+            // Fudeu de novo batima
+            System.out.print("Dentro do Arreindexautofebaundincepxon");
 
         }
     }
