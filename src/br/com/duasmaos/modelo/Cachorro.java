@@ -10,6 +10,19 @@ public class Cachorro {
     private int peso;
     private int idade;
 
+    public Cachorro() {
+        this.setNome("Rosario");
+        this.setRaca("MelhorQueMalandro");
+        this.setPeso(30);
+        this.setIdade(20);
+    }
+    public Cachorro(String nome, String raca, int peso, int idade) {
+        this.setNome(nome);
+        this.setRaca(raca);
+        this.setPeso(peso);
+        this.setIdade(idade);
+    }
+
     // Getters
     public String getNome() {
         return nome;

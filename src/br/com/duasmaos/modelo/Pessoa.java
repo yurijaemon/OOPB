@@ -6,8 +6,7 @@ package br.com.duasmaos.modelo;
 public class Pessoa {
 
     private String nome;
-    private String posicao;
-    private int numeroUniforme;
+    private String peso;
     private int altura;
     private int idade;
 
@@ -17,12 +16,8 @@ public class Pessoa {
         return nome;
     }
 
-    public int getNumeroUniforme() {
-        return numeroUniforme;
-    }
-
-    public String getPosicao() {
-        return posicao;
+    public String getPeso() {
+        return peso;
     }
 
     public int getAltura() {
@@ -38,12 +33,8 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public void setNumeroUniforme(int numero) {
-        this.numeroUniforme = numero;
-    }
-
-    public void setPosicao(String posicao) {
-        this.posicao = posicao;
+    public void setPeso(String peso) {
+        this.peso = peso;
     }
 
     public void setAltura(int altura) {
