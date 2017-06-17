@@ -14,6 +14,7 @@ public class main {
 
         Pessoa josefina = new Pessoa();
         Cachorro salomao = new Cachorro();
+        CachorroQuente Bigode = new CachorroQuente();
         String nome;
 
         int tamanhoNome;
