@@ -11,10 +11,13 @@ public class Cachorro {
     private int idade;
 
     public Cachorro() {
+
         this.setNome("Rosario");
         this.setRaca("MelhorQueMalandro");
         this.setPeso(30);
         this.setIdade(20);
+
+        System.out.println("Cachorro " + this.getNome() + " construido!");
     }
     public Cachorro(String nome, String raca, int peso, int idade) {
         this.setNome(nome);
