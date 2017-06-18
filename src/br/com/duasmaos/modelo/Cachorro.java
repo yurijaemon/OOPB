@@ -1,9 +1,11 @@
 package br.com.duasmaos.modelo;
 
+import br.com.duasmaos.interfaces.Mamifero;
+
 /**
  * Created by yurijm on 15/06/17.
  */
-public class Cachorro {
+public class Cachorro implements Mamifero {
 
     private String nome;
     private String raca;
@@ -60,4 +62,12 @@ public class Cachorro {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+
+    public void mama() {}
+    public void come() {}
+    public void bebe() {}
+    public void fazCoco(int tamanho) {}
+    public void amamenta() {}
+    public void berra() {}
 }
