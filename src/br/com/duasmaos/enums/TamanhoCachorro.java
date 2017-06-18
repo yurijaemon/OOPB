@@ -1,4 +1,4 @@
-package br.com.duasmaos.br.com.duasmaos.enums;
+package br.com.duasmaos.enums;
 
 /**
  * Created by yurijm on 17/06/17.
